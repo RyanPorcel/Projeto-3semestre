@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Meu primeiro formulario</h1>
+   <form>
+       <label for="nome">Nome e Sobrenome</label>
+       <input type="text" id="email" class="input-padrao">
+
+       <label type="email">Email</label>
+       <input type="text" id="email" class="input-padrao">
+
+       <label for="Idade">Idade</label>
+       <input type="date" id="idade" class="input-padrao">
+ 
+       <label for="telefone">Telefone</label>
+       <input type="text" id="telefone" class="input-padrao">
+
+       <label for="mensagem">mensagem</label>
+       <textarea cols="70" rows="10" id="mensagem"
+        class="input-padrao"></textarea>
+       
+       <p><input type="submit" value="enviar"></p>
+
+       <div>
+          <p>Como prefere Contato?</p>
+           <label for="radio-email"><input type="radio" name="contato" 
+            value="email" id="radio-email"><img src="gmail.png" id="gmail">Email</label>
+           <label for="radio-telefone">
+           <input type="radio" name="contato" value="telefone"
+            id="radio-telefone"><img src="download (1).png" id="telefone">Telefone</label>
+            
+          <label for="radio-whatsapp"><input type="radio" name="contato"
+           value="whatsapp" id="radio-whatsapp"whatsapp ><img src="zap.png" id="zap"> </label>
+       </div>
+ 
+    </body>
+</html>
