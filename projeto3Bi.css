@@ -1,0 +1,50 @@
+h1{
+text-align: center;
+background-color: aliceblue;
+border: solid 7px #9e8585;
+margin: 50px 50px;
+font-style: oblique;
+border-radius: 20px;
+}
+
+
+
+
+h2{
+
+text-align: center;
+
+}
+
+
+
+
+.textoimagem{
+    display: flex;
+    align-items: right;
+    text-align:right;
+    
+
+
+}
+
+.video
+
+.tipos{
+    text-align: left;
+
+}
+
+p{
+text-align: center;
+font-style:italic;
+font-size: large;
+}
+
+
+
+
+
+
+
+
